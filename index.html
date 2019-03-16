@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- create a header -->
+    <header>
+        <div class = "container mt-0 p-5" style = "background-color: navy">
+            <div class = "row">
+                <div class = "col-md-12">
+                    <h1 class = "text-center" style = "color: white">New York Times Search</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- create a container/jumbotron with a border and make the width of the header -->
+    <div class = "jumbotron container text-center" style = "width: 960px">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id ="search=term" placeholder="John Lennon" aria-label="Recipient's username" aria-describedby="button-addon2">    
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id ="num-records" placeholder="10" aria-label="Recipient's username" aria-describedby="button-addon2">    
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id ="start-year" placeholder="1960" aria-label="Recipient's username" aria-describedby="button-addon2">    
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id ="end-year" placeholder="1980" aria-label="Recipient's username" aria-describedby="button-addon2">    
+        </div>
+        <button id = "search-btn">Search</button>
+        <button id = "clear-btn">Clear Results</button>
+    </div>
+    <!-- create a row and column at the top of the container with text to the left for search parameter with background and border-->
+    <!-- create a row and column with no border or background for search term -->
+    <!-- create input with placeholder text for search term -->
+    <!-- repeat for the next three inputs -->
+        <!-- for number of records: multiples of 10 up to 100; also this is a drop down input -->
+    <!-- create a row and columns for search button and clear results button -->
+
+
+</body>
+<script src = "assests/javascript/app.js"></script>
+</html>
